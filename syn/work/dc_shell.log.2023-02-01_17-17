@@ -1,0 +1,93 @@
+setting auto_restore_mw_cel_lib_setup true
+Initializing gui preferences from file  /u/reethika/.synopsys_dv_prefs.tcl
+dc_shell> gui_start
+4.1
+dc_shell> read_file -format sverilog {/u/reethika/Documents/lab3-reethika07-master/syn/rtl/adder_1d.sv}
+Loading db file '/pkgs/synopsys/2020/design_compiler/syn/Q-2019.12-SP3/libraries/syn/gtech.db'
+Loading db file '/pkgs/synopsys/2020/design_compiler/syn/Q-2019.12-SP3/libraries/syn/standard.sldb'
+  Loading link library 'gtech'
+Loading sverilog file '/u/reethika/Documents/lab3-reethika07-master/syn/rtl/adder_1d.sv'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Loading db file '/pkgs/synopsys/2020/design_compiler/syn/Q-2019.12-SP3/libraries/syn/dw_foundation.sldb'
+Warning: Can't read link_library file 'your_library.db'. (UID-3)
+Warning: The following synthetic libraries should be added to 
+        the list of link libraries: 
+        'dw_foundation.sldb'. (UISN-26)
+Compiling source file /u/reethika/Documents/lab3-reethika07-master/syn/rtl/adder_1d.sv
+Error:  /u/reethika/Documents/lab3-reethika07-master/syn/rtl/adder_1d.sv:9: The symbol 'cout' is not defined. (VER-956)
+Error:  /u/reethika/Documents/lab3-reethika07-master/syn/rtl/adder_1d.sv:9: The symbol 'sum' is not defined. (VER-956)
+Error:  /u/reethika/Documents/lab3-reethika07-master/syn/rtl/adder_1d.sv:9: The symbol 'a' is not defined. (VER-956)
+Error:  /u/reethika/Documents/lab3-reethika07-master/syn/rtl/adder_1d.sv:9: The symbol 'b' is not defined. (VER-956)
+Error:  /u/reethika/Documents/lab3-reethika07-master/syn/rtl/adder_1d.sv:9: The symbol 'cin' is not defined. (VER-956)
+*** Presto compilation terminated with 5 errors. ***
+Error: Can't read 'sverilog' file '/u/reethika/Documents/lab3-reethika07-master/syn/rtl/adder_1d.sv'. (UID-59)
+No designs were read
+dc_shell> gui_start
+dc_shell> read_file -format sverilog {/u/reethika/Documents/lab3-reethika07-master/syn/rtl/adder_1d.sv}
+Loading sverilog file '/u/reethika/Documents/lab3-reethika07-master/syn/rtl/adder_1d.sv'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Warning: Can't read link_library file 'your_library.db'. (UID-3)
+Warning: The following synthetic libraries should be added to 
+        the list of link libraries: 
+        'dw_foundation.sldb'. (UISN-26)
+Compiling source file /u/reethika/Documents/lab3-reethika07-master/syn/rtl/adder_1d.sv
+Error:  /u/reethika/Documents/lab3-reethika07-master/syn/rtl/adder_1d.sv:9: Assigment to 'CO' requires that it be a register. (VER-952)
+Error:  /u/reethika/Documents/lab3-reethika07-master/syn/rtl/adder_1d.sv:9: Assigment to 'S' requires that it be a register. (VER-952)
+*** Presto compilation terminated with 2 errors. ***
+Error: Can't read 'sverilog' file '/u/reethika/Documents/lab3-reethika07-master/syn/rtl/adder_1d.sv'. (UID-59)
+No designs were read
+dc_shell> read_file -format sverilog {/u/reethika/Documents/lab3-reethika07-master/syn/rtl/adder_1d.sv}
+Loading sverilog file '/u/reethika/Documents/lab3-reethika07-master/syn/rtl/adder_1d.sv'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Warning: Can't read link_library file 'your_library.db'. (UID-3)
+Warning: The following synthetic libraries should be added to 
+        the list of link libraries: 
+        'dw_foundation.sldb'. (UISN-26)
+Compiling source file /u/reethika/Documents/lab3-reethika07-master/syn/rtl/adder_1d.sv
+Error:  /u/reethika/Documents/lab3-reethika07-master/syn/rtl/adder_1d.sv:9: Assigment to 'CO' requires that it be a register. (VER-952)
+*** Presto compilation terminated with 1 errors. ***
+Error: Can't read 'sverilog' file '/u/reethika/Documents/lab3-reethika07-master/syn/rtl/adder_1d.sv'. (UID-59)
+No designs were read
+dc_shell> read_file -format sverilog {/u/reethika/Documents/lab3-reethika07-master/syn/rtl/adder_1d.sv}
+Loading sverilog file '/u/reethika/Documents/lab3-reethika07-master/syn/rtl/adder_1d.sv'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Warning: Can't read link_library file 'your_library.db'. (UID-3)
+Warning: The following synthetic libraries should be added to 
+        the list of link libraries: 
+        'dw_foundation.sldb'. (UISN-26)
+Compiling source file /u/reethika/Documents/lab3-reethika07-master/syn/rtl/adder_1d.sv
+Presto compilation completed successfully.
+Current design is now '/u/reethika/Documents/lab3-reethika07-master/syn/rtl/adder_1d.db:adder_1d'
+Loaded 1 design.
+Current design is 'adder_1d'.
+dc_shell> 
+Current design is 'adder_1d'.
+Loading db file '/pkgs/synopsys/2020/design_compiler/syn/Q-2019.12-SP3/libraries/syn/generic.sdb'
+dc_shell> pwd
+/home/reethika/common/Documents/lab3-reethika07-master/syn/work
+dc_shell> remove_design -designs
+Removing design 'adder_1d'
+dc_shell> read_file -format sverilog {/u/reethika/Documents/lab3-reethika07-master/syn/rtl/adder_1a.sv}
+Loading sverilog file '/u/reethika/Documents/lab3-reethika07-master/syn/rtl/adder_1a.sv'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Warning: Can't read link_library file 'your_library.db'. (UID-3)
+Warning: The following synthetic libraries should be added to 
+        the list of link libraries: 
+        'dw_foundation.sldb'. (UISN-26)
+Compiling source file /u/reethika/Documents/lab3-reethika07-master/syn/rtl/adder_1a.sv
+Presto compilation completed successfully.
+Current design is now '/u/reethika/Documents/lab3-reethika07-master/syn/rtl/adder_1a.db:adder_1a'
+Loaded 2 designs.
+Current design is 'adder_1a'.
+dc_shell> 
+Current design is 'adder_1a'.

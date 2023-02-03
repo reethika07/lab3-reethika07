@@ -1,0 +1,808 @@
+CRTE_SNAPSHOT_START
+
+SECTION_CRTE_VERSION
+3.0
+
+SECTION_PID
+16029
+
+SECTION_POLLING_INTERVAL
+5
+
+SECTION_DATE_TIME
+Wed Feb 01 17:34:10 PST 2023 (1675301650)
+
+SECTION_OS_VERSION
+osname: Linux
+hostname: auto.ece.pdx.edu
+arch: x86_64
+release_version: 3.10.0-1160.81.1.el7.x86_64
+
+SECTION_IPC_INFO
+
+------ Message Queues --------
+key        msqid      owner      perms      used-bytes   messages    
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x00000000 58753024   lzb        777        65536      1          dest         
+0x00000000 58753025   lzb        777        1081344    1          dest         
+0x00000000 58753027   lzb        777        1474560    1          dest         
+0x00000000 61407236   pratibha   600        524288     2          dest         
+0x00000000 58753029   lzb        777        1114112    1          dest         
+0x00000000 62128136   adrajesh   600        393216     2          dest         
+0x00000000 60588041   diemhan    600        393216     2          dest         
+0x00000000 58753034   lzb        777        65536      1          dest         
+0x00000000 58753035   lzb        777        1081344    1          dest         
+0x00000000 58753036   lzb        777        1474560    1        SECTION_ULIMIT
+core file size          (blocks, -c) 0
+data seg size           (kbytes, -d) unlimited
+scheduling priority             (-e) 0
+file size               (blocks, -f) unlimited
+pending signals                 (-i) 341570
+max locked memory       (kbytes, -l) 64
+max memory size         (kbytes, -m) unlimited
+open files                      (-n) 4096
+pipe size            (512 bytes, -p) 8
+POSIX message queues     (bytes, -q) 819200
+real-time priority              (-r) 0
+stack size              (kbytes, -s) unlimited
+cpu time               (seconds, -t) unlimited
+max user processes              (-u) 4096
+virtual memory          (kbytes, -v) 67108864
+file locks                      (-x) unlimited
+
+SECTION_SYSCONF
+_SC_THREAD_SAFE_FUNCTIONS= 200809
+_SC_CLK_TCK= 100
+_SC_OPEN_MAX= 4096
+_SC_PAGE_SIZE= 4096
+_SC_ARG_MAX= 4611686018427387903
+_SC_CHILD_MAX= 4096
+_SC_LINE_MAX= 2048
+
+SECTION_FULL_COMMAND
+/pkgs/synopsys/2020/design_compiler/syn/Q-2019.12-SP3/linux64/syn/bin/common_shell_exec -shell dc_shell -r /pkgs/synopsys/2020/design_compiler/syn/Q-2019.12-SP3
+
+SECTION_CPUINFO
+total_core: 60
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+model_name:  Intel Xeon E312xx (Sandy Bridge, IBRS update)
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm rsb_ctxsw ibrs ibpb xsaveopt arat spec_ctrl
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 16384
+ht: 0
+
+SECTION_OS_RELEASE_VERSION
+CentOS Linux release 7.9.2009 (Core)
+
+
+SECTION_SYS/VM
+/proc/sys/vm/admin_reserve_kbytes:8192
+/proc/sys/vm/block_dump:0
+/proc/sys/vm/dirty_background_bytes:0
+/proc/sys/vm/dirty_background_ratio:10
+/proc/sys/vm/dirty_bytes:0
+/proc/sys/vm/dirty_expire_centisecs:3000
+/proc/sys/vm/dirty_ratio:30
+/proc/sys/vm/dirty_writeback_centisecs:500
+/proc/sys/vm/drop_caches:0
+/proc/sys/vm/extfrag_threshold:500
+/proc/sys/vm/hugepages_treat_as_movable:0
+/proc/sys/vm/hugetlb_shm_group:0
+/proc/sys/vm/laptop_mode:0
+/proc/sys/vm/legacy_va_layout:0
+/proc/sys/vm/lowmem_reserve_ratio:256	256	32
+/proc/sys/vm/max_map_count:65530
+/proc/sys/vm/memory_failure_early_kill:0
+/proc/sys/vm/memory_failure_recovery:1
+/proc/sys/vm/min_free_kbytes:67584
+/proc/sys/vm/min_slab_ratio:5
+/proc/sys/vm/min_unmapped_ratio:1
+/proc/sys/vm/mmap_min_addr:4096
+/proc/sys/vm/nr_hugepages:0
+/proc/sys/vm/nr_hugepages_mempolicy:0
+/proc/sys/vm/nr_overcommit_hugepages:0
+/proc/sys/vm/nr_pdflush_threads:0
+/proc/sys/vm/numa_zonelist_order:default
+/proc/sys/vm/oom_dump_tasks:1
+/proc/sys/vm/oom_kill_allocating_task:0
+/proc/sys/vm/overcommit_kbytes:0
+/proc/sys/vm/overcommit_memory:0
+/proc/sys/vm/overcommit_ratio:50
+/proc/sys/vm/page-cluster:3
+/proc/sys/vm/panic_on_oom:0
+/proc/sys/vm/percpu_pagelist_fraction:0
+/proc/sys/vm/stat_interval:1
+/proc/sys/vm/swappiness:30
+/proc/sys/vm/user_reserve_kbytes:131072
+/proc/sys/vm/vfs_cache_pressure:100
+/proc/sys/vm/zone_reclaim_mode:0
+
+
+SECTION_SWAP
+Error: Could not collect the data.
+
+CRTE_SNAPSHOT_END
+
+CRTE_PERIODIC_START 1 1675301650710
+
+SECTION_MPSTAT
+total_core: 60
+
+CPU     %user   %kernel %wait   %idle   
+all   0.849924 0.809757 0.015659 98.324654
+0     0.928764 0.559439 0.009965 98.501823
+1     2.128357 2.466080 0.024898 95.380661
+2     1.844984 2.136770 0.026625 95.991623
+3     1.631353 1.822751 0.023810 96.522079
+4     1.329386 1.618297 0.024297 97.028023
+5     1.321333 1.449185 0.021727 97.207756
+6     1.186790 1.281584 0.021279 97.510353
+7     1.217955 1.286192 0.019068 97.476791
+8     1.087379 1.147231 0.019132 97.746262
+9     1.017814 1.090244 0.020386 97.871559
+10     0.962602 0.993721 0.018662 98.025017
+11     0.952672 0.958630 0.017738 98.070961
+12     0.914764 0.953977 0.018987 98.112274
+13     0.882446 0.884095 0.018316 98.215149
+14     0.890789 0.862113 0.015463 98.231644
+15     0.854301 0.827147 0.016280 98.302269
+16     0.811736 0.774902 0.016713 98.396652
+17     0.817833 0.755446 0.015668 98.411049
+18     0.801134 0.769026 0.016586 98.413254
+19     0.784449 0.742657 0.016254 98.456642
+20     0.772488 0.728483 0.016056 98.482971
+21     0.759944 0.698995 0.015314 98.525749
+22     0.756018 0.690277 0.015239 98.538460
+23     0.741074 0.667505 0.015459 98.575958
+24     0.451805 0.456025 0.010781 99.081390
+25     0.719708 0.660915 0.014500 98.604881
+26     0.732900 0.664420 0.015346 98.587334
+27     0.737178 0.662405 0.014551 98.585869
+28     0.702728 0.646549 0.014326 98.636398
+29     0.681212 0.623619 0.015134 98.680038
+30     0.802126 0.695225 0.014676 98.487976
+31     0.694200 0.616583 0.014899 98.674316
+32     0.687150 0.635280 0.013928 98.663643
+33     0.667453 0.620200 0.014507 98.697845
+34     0.712410 0.649038 0.014229 98.624321
+35     0.633243 0.562969 0.013156 98.790627
+36     0.715450 0.620744 0.012686 98.651115
+37     0.670044 0.592598 0.013357 98.723999
+38     0.700140 0.593134 0.013829 98.692894
+39     0.685743 0.615759 0.013288 98.685211
+40     0.691159 0.578657 0.014452 98.715736
+41     0.656675 0.556063 0.013350 98.773911
+42     0.667285 0.577109 0.012992 98.742615
+43     0.687011 0.585310 0.012827 98.714851
+44     0.663276 0.570778 0.013449 98.752502
+45     0.664089 0.562109 0.013227 98.760582
+46     0.662977 0.549689 0.014132 98.773201
+47     1.280531 1.400153 0.020321 97.298988
+48     0.767804 0.678719 0.015567 98.537910
+49     0.754283 0.662608 0.012994 98.570114
+50     0.704498 0.629758 0.013774 98.651970
+51     0.649409 0.576697 0.011998 98.761902
+52     0.667645 0.550940 0.012893 98.768524
+53     0.640243 0.575713 0.012862 98.771187
+54     0.721044 0.609133 0.016015 98.653809
+55     0.673769 0.566352 0.013246 98.746635
+56     0.730746 0.606939 0.012345 98.649971
+57     0.702882 0.564891 0.011605 98.720619
+58     0.676865 0.539589 0.012341 98.771202
+59     0.953948 0.576651 0.012133 98.457268
+SECTION_LOADAVG
+2.58 2.75 3.12 4/9546 31483
+
+SECTION_PID_STATUS
+name: common_shell_ex
+state: 1
+vmsize: 1767212
+vmrss: 189064
+vmdata: 1267964
+vmstk: 132
+vmexe: 333444
+vmlib: 26812
+threads: 1
+
+SECTION_PROCESS_CPU_UTIL
+pid: 16029
+cpu_total_time: 13912592212
+cpu_used_time: 9531
+cpu_p: 
+
+SECTION_SYSTEM_CPU_UTIL
+sys_cpu_p: 
+
+SECTION_MEMINFO
+memtotal: 87473216
+memfree: 34913780
+cached: 26762808
+swapcached: 0
+active: 36255044
+swaptotal: 0
+swapfree: 0
+
+SECTION_SMAPS
+shared_kb: 41208
+private_kb: 147864
+
+SECTION_DF
+Filesystem  Size  Used Avail Use%
+filesystem        49G  9G  36G    21
+
+Filesystem    Inodes   IUsed   IFree   IUse%
+filesystem          3276800  307341 2969459   4294966430
+
+SECTION_CWD
+Filesystem  Size  Used Avail Use%
+filesystem        10070G  192G  9877G    2
+
+Filesystem    Inodes   IUsed   IFree   IUse%
+filesystem          3539107223  3622980 3535484243   100
+
+SECTION_SWAP_RATE
+Error: Could not collect the data.
+
+SECTION_FD_SIZE
+files: 15
+total_size: 10570118
+
+SECTION_NET_INTERFACE
+total_eth_avbl: 3
+
+name net_rx_err net_rx_drp net_tx_err net_tx_drp 
+  eth0:         0        5        0        0
+    lo:         0        0        0        0
+virbr0-nic:               0        0        0        0
+
+SECTION_NFSSTAT
+readlink: 0
+write: 38
+getattr: 6
+retrans: 0
+raw_data: 
+net 0 0 0 0
+rpc 99981847 0 100002471
+proc4 60 0 2940187 38073679 103088 947932 0 1843266 7148 2640569 915127 1501 0 0 0 375000 413 358808 4928696 6384396 2133941 300 509959 232686 11752 316 33603 1201 35899820 7256 169069 2702 1271575 528 528 0 0 0 0 2 2 0 3 0 2 0 0 0 0 0 2 191976 0 0 0 0 0 0 0 0 0
+
+
+SECTION_THREAD_CPU_UTIL
+16029 : 16029 (common_shell_ex) R 48639 16029 48639 34822 16029 8192 304497 128646 1 4 4638 4575 248 71 20 0 1 0 232097311 1809625088 47266 18446744073709551615 4194304 345640725 140737488347296 140737488326312 46912507610973 0 8 69210112 1268510463 0 0 0 17 5 0 0 13 0 0 347739936 362740984 1553498112 140737488348099 140737488348260 140737488348260 140737488351136 0
+
+CRTE_PERIODIC_END 1 1675301650710

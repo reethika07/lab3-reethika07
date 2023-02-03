@@ -1,0 +1,73 @@
+setting auto_restore_mw_cel_lib_setup true
+Initializing gui preferences from file  /u/reethika/.synopsys_dv_prefs.tcl
+dc_shell> gui_start
+4.1
+dc_shell> read_file -format sverilog {/u/reethika/Documents/lab3-reethika07-master/syn/rtl/adder_1a.sv}
+Loading db file '/pkgs/synopsys/2020/design_compiler/syn/Q-2019.12-SP3/libraries/syn/gtech.db'
+Loading db file '/pkgs/synopsys/2020/design_compiler/syn/Q-2019.12-SP3/libraries/syn/standard.sldb'
+  Loading link library 'gtech'
+Loading sverilog file '/u/reethika/Documents/lab3-reethika07-master/syn/rtl/adder_1a.sv'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Loading db file '/pkgs/synopsys/2020/design_compiler/syn/Q-2019.12-SP3/libraries/syn/dw_foundation.sldb'
+Warning: Can't read link_library file 'your_library.db'. (UID-3)
+Warning: The following synthetic libraries should be added to 
+        the list of link libraries: 
+        'dw_foundation.sldb'. (UISN-26)
+Compiling source file /u/reethika/Documents/lab3-reethika07-master/syn/rtl/adder_1a.sv
+Presto compilation completed successfully.
+Current design is now '/u/reethika/Documents/lab3-reethika07-master/syn/rtl/adder_1a.db:adder_1a'
+Loaded 2 designs.
+Current design is 'adder_1a'.
+dc_shell> 
+Current design is 'adder_1a'.
+Loading db file '/pkgs/synopsys/2020/design_compiler/syn/Q-2019.12-SP3/libraries/syn/generic.sdb'
+dc_shell> remove_design -designs
+Removing design 'adder_1a'
+Removing design 'Adder'
+dc_shell> read_file -format sverilog {/u/reethika/Documents/lab3-reethika07-master/syn/rtl/adder_1b.sv}
+Loading sverilog file '/u/reethika/Documents/lab3-reethika07-master/syn/rtl/adder_1b.sv'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Warning: Can't read link_library file 'your_library.db'. (UID-3)
+Warning: The following synthetic libraries should be added to 
+        the list of link libraries: 
+        'dw_foundation.sldb'. (UISN-26)
+Compiling source file /u/reethika/Documents/lab3-reethika07-master/syn/rtl/adder_1b.sv
+Presto compilation completed successfully.
+Current design is now '/u/reethika/Documents/lab3-reethika07-master/syn/rtl/adder_1b.db:adder_1b'
+Loaded 2 designs.
+Current design is 'adder_1b'.
+dc_shell> 
+Current design is 'adder_1b'.
+dc_shell> remove_design -designs
+Removing design 'adder_1b'
+Removing design 'Adder'
+dc_shell> read_file -format sverilog {/u/reethika/Documents/lab3-reethika07-master/syn/rtl/adder_1c.sv}
+Loading sverilog file '/u/reethika/Documents/lab3-reethika07-master/syn/rtl/adder_1c.sv'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Warning: Can't read link_library file 'your_library.db'. (UID-3)
+Warning: The following synthetic libraries should be added to 
+        the list of link libraries: 
+        'dw_foundation.sldb'. (UISN-26)
+Compiling source file /u/reethika/Documents/lab3-reethika07-master/syn/rtl/adder_1c.sv
+Warning:  /u/reethika/Documents/lab3-reethika07-master/syn/rtl/adder_1c.sv:23: DEFAULT branch of CASE statement cannot be reached. (ELAB-311)
+
+Statistics for case statements in always block at line 21 in file
+        '/u/reethika/Documents/lab3-reethika07-master/syn/rtl/adder_1c.sv'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            23            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Current design is now '/u/reethika/Documents/lab3-reethika07-master/syn/rtl/adder_1c.db:adder_1c'
+Loaded 2 designs.
+Current design is 'adder_1c'.
+dc_shell> 
+Current design is 'adder_1c'.
+dc_shell> exit

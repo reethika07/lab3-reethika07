@@ -1,0 +1,48 @@
+setting auto_restore_mw_cel_lib_setup true
+Initializing gui preferences from file  /u/reethika/.synopsys_dv_prefs.tcl
+dc_shell> set top_design adder_1b
+adder_1b
+dc_shell> source ../ scripts/dc-adder_1b.tcl
+Error: extra positional option 'scripts/dc-adder_1b.tcl' (CMD-012)
+dc_shell> source ../scripts/dc-adder_1b.tcl
+== ANALYZE autoread all files ==
+
+Starting ANALYZE autoread mode...
+Warning: Defining design library 'WORK' at directory '/home/reethika/common/Documents/lab3-reethika07-master/syn/work/WORK_autoread'. (AUTOREAD-107)
+Information: Adding '/home/reethika/common/Documents/lab3-reethika07-master/syn/rtl/adder_1b.sv'.  (AUTOREAD-100)
+Information: Scanning file { adder_1b.sv }. (AUTOREAD-303)
+Compiling source file /home/reethika/common/Documents/lab3-reethika07-master/syn/rtl/adder_1b.sv
+Presto compilation completed successfully.
+Autoread command completed successfully.
+Loading db file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ss0p95v125c.db'
+Loading db file '/pkgs/synopsys/2020/design_compiler/syn/Q-2019.12-SP3/libraries/syn/dw_foundation.sldb'
+Loading db file '/pkgs/synopsys/2020/design_compiler/syn/Q-2019.12-SP3/libraries/syn/gtech.db'
+Loading db file '/pkgs/synopsys/2020/design_compiler/syn/Q-2019.12-SP3/libraries/syn/standard.sldb'
+  Loading link library 'saed32rvt_ss0p95v125c'
+  Loading link library 'gtech'
+Error: Cannot find the design 'adder_1b' in the library 'WORK'. (LBR-0)
+Error: Current design is not defined. (UID-4)
+set_max_delay -from [all_inputs ] -to [all_outputs] 0
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Value for list '-from' must have 1 elements. (CMD-036)
+Error: Value for list '-to' must have 1 elements. (CMD-036)
+0
+Error: Current design is not defined. (UID-4)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: No files or designs were specified. (UID-22)
+Error: No files or designs were specified. (UID-22)
+Error: Current design is not defined. (UID-4)
+0
+dc_shell> exit
+
+Memory usage for this session 143 Mbytes.
+Memory usage for this session including child processes 143 Mbytes.
+CPU usage for this session 3 seconds ( 0.00 hours ).
+Elapsed time for this session 390 seconds ( 0.11 hours ).
+
+Thank you...
+

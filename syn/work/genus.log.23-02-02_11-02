@@ -1,0 +1,26 @@
+  Setting attribute of root '/': 'stdout_log' = genus.log.23-02-02_11-02
+  Setting attribute of root '/': 'command_log' = genus.cmd.23-02-02_11-02
+WARNING: This version of the tool is 1156 days old.
+@genus:root: 1> set top_design adder_1a
+adder_1a
+@genus:root: 2> source ../scripts/dc-adder_1a.tcl
+Sourcing '../scripts/dc-adder_1a.tcl' (Thu Feb 02 11:21:00 PST 2023)...
+#@ Begin verbose source scripts/dc-adder_1a.tcl
+@file(dc-adder_1a.tcl) 2: set lib_dir /pkgs/synopsys/2020/32_28nm/SAED32_EDK
+@file(dc-adder_1a.tcl) 3: set top_design adder_1a
+@file(dc-adder_1a.tcl) 4: set rtl_list [list ../rtl/$top_design.sv ]
+@file(dc-adder_1a.tcl) 5: set slow_corner "ss0p95v125c"
+@file(dc-adder_1a.tcl) 6: set lib_types "stdcell_rvt"
+@file(dc-adder_1a.tcl) 7: set sub_lib_type "saed32rvt_"
+@file(dc-adder_1a.tcl) 10: set search_path "$lib_dir/lib/$lib_types/db_nldm ."
+@file(dc-adder_1a.tcl) 11: set synthetic_library dw_foundation.sldb
+@file(dc-adder_1a.tcl) 12: set link_library "${sub_lib_type}${slow_corner}.db $synthetic_library *"
+@file(dc-adder_1a.tcl) 13: set target_library "${sub_lib_type}${slow_corner}.db"
+@file(dc-adder_1a.tcl) 21: analyze $rtl_list -autoread -define SYNTHESIS
+#@ End verbose source scripts/dc-adder_1a.tcl
+ambiguous command name "analyze": analyze_atpg_testability analyze_library_corners analyze_scan_compressibility
+@genus:root: 3> gui_show
+Error   : No designs are available. A design must first be read in and elaborated. [TUI-10] [check_design]
+        : There is no design here.
+        : A design must first be read in with 'read_hdl' command and elaborated with 'elaborate' command.
+Normal exit.

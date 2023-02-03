@@ -1,0 +1,81 @@
+setting auto_restore_mw_cel_lib_setup true
+Initializing gui preferences from file  /u/reethika/.synopsys_dv_prefs.tcl
+dc_shell> set top_design adder_1b
+adder_1b
+dc_shell> source ../scripts/dc-adder_1b.tcl
+== ANALYZE autoread all files ==
+
+Starting ANALYZE autoread mode...
+Warning: Defining design library 'WORK' at directory '/home/reethika/common/Documents/lab3-reethika07-master/syn/work/WORK_autoread'. (AUTOREAD-107)
+Information: Adding '/home/reethika/common/Documents/lab3-reethika07-master/syn/rtl/adder_1b.sv'.  (AUTOREAD-100)
+Information: Scanning file { adder_1b.sv }. (AUTOREAD-303)
+Compiling source file /home/reethika/common/Documents/lab3-reethika07-master/syn/rtl/adder_1b.sv
+Presto compilation completed successfully.
+Autoread command completed successfully.
+Loading db file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ss0p95v125c.db'
+Loading db file '/pkgs/synopsys/2020/design_compiler/syn/Q-2019.12-SP3/libraries/syn/dw_foundation.sldb'
+Loading db file '/pkgs/synopsys/2020/design_compiler/syn/Q-2019.12-SP3/libraries/syn/gtech.db'
+Loading db file '/pkgs/synopsys/2020/design_compiler/syn/Q-2019.12-SP3/libraries/syn/standard.sldb'
+  Loading link library 'saed32rvt_ss0p95v125c'
+  Loading link library 'gtech'
+Error: Cannot find the design 'adder_1b' in the library 'WORK'. (LBR-0)
+Error: Current design is not defined. (UID-4)
+set_max_delay -from [all_inputs ] -to [all_outputs] 0
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Value for list '-from' must have 1 elements. (CMD-036)
+Error: Value for list '-to' must have 1 elements. (CMD-036)
+0
+Error: Current design is not defined. (UID-4)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: No files or designs were specified. (UID-22)
+Error: No files or designs were specified. (UID-22)
+Error: Current design is not defined. (UID-4)
+0
+dc_shell> pwd
+/home/reethika/common/Documents/lab3-reethika07-master/syn/work
+dc_shell> cd ..
+dc_shell> pwd
+/home/reethika/common/Documents/lab3-reethika07-master/syn
+dc_shell> gui_start
+4.1
+dc_shell> read_file -format sverilog {/home/reethika/common/Documents/lab3-reethika07-master/syn/rtl/adder_1b.sv}
+Loading sverilog file '/home/reethika/common/Documents/lab3-reethika07-master/syn/rtl/adder_1b.sv'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /home/reethika/common/Documents/lab3-reethika07-master/syn/rtl/adder_1b.sv
+Presto compilation completed successfully.
+Current design is now '/home/reethika/common/Documents/lab3-reethika07-master/syn/rtl/Adder.db:Adder'
+Loaded 2 designs.
+Current design is 'Adder'.
+dc_shell> 
+Current design is 'Adder'.
+Loading db file '/pkgs/synopsys/2020/design_compiler/syn/Q-2019.12-SP3/libraries/syn/generic.sdb'
+dc_shell> remove_design -designs
+Removing design 'Adder'
+Removing design 'FullAdder'
+dc_shell> read_file -format sverilog {/home/reethika/common/Documents/lab3-reethika07-master/syn/rtl/adder_1b.sv}
+Loading sverilog file '/home/reethika/common/Documents/lab3-reethika07-master/syn/rtl/adder_1b.sv'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /home/reethika/common/Documents/lab3-reethika07-master/syn/rtl/adder_1b.sv
+Presto compilation completed successfully.
+Current design is now '/home/reethika/common/Documents/lab3-reethika07-master/syn/rtl/FullAdder.db:FullAdder'
+Loaded 2 designs.
+Current design is 'FullAdder'.
+dc_shell> 
+Current design is 'FullAdder'.
+dc_shell> exit
+
+Memory usage for this session 143 Mbytes.
+Memory usage for this session including child processes 143 Mbytes.
+CPU usage for this session 57 seconds ( 0.02 hours ).
+Elapsed time for this session 2693 seconds ( 0.75 hours ).
+
+Thank you...
+
